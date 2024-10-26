@@ -1,0 +1,21 @@
+ficha 3 dependencias funcionais
+
+4. AB
+5. a)Condutor, ContactoCondutor
+   Dono, ENdereçoDono
+  
+   marcamodelo, Diesel/Gasolina
+   numch, Dono,marca,modelo,numeromotor,dataultimainspeçao,
+   mummotor, numch
+   NUMCH data hora, Condutor, inspetor,avrovado/reprovado, observações
+
+
+
+
+b) Númerochassis data/hora
+
+7a) AC determina todas as instãncias de R sendo A nao atribui C e C não determina A
+
+
+
+se não pertence a nenhuma depend~encia é chave candidata

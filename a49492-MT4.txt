@@ -1,0 +1,45 @@
+-- Trabalho : MT4
+--
+--
+--
+-- Resposta questão 4.1
+
+B -> A: Significa que a presença de B determina A por reflexibilidade
+Se B -> A e A -> EF, podemos aplicar a transitividade em B -> EF Logo se B estiver presente, então E e F também devem estar presentes
+C -> DF: Isso significa que a presença de C determina D e F
+ABC -> E: Isso significa que a presença de ABC determina E
+Como ABC determina E consegue determinar os restantes atributos logo é uma superchave, ou seja a chave candidata para a relação R(A,B,C,D,E,F) é ABC.
+--
+--
+--
+-- Resposta Questão 4.2
+Dado A -> D
+Dado B -> E
+Dado AC -> D
+Dado CD -> A
+Segundo isto, a superchave e chave candidata é AC
+Relação 1 -> (A,D) A é a chave primária.
+Relação 2 -> (B,E) B é a chave primária.
+Relação 3 -> (A,C,D) AC é a chave primária.
+Relação 4 -> (C,D,A) CD é a chave primária.
+Logo:
+ (B,E) com chave primária B
+ (A,D) com chave primária A
+ (A,C,D) com chave primária AC
+ (C,D,A) com chave primária CD
+--
+--
+--
+-- Resposta questão 4.3
+Se AB-> CD implica que AB determine os atributos CD. 
+Visto isto, AB é uma superchave. Visto não haver um conjunto menor de atributos que possa determinar todos os atributos da relação sem incluir AB.
+AB é a chave primária mais adequada para a relação R(A,B,C,D).
+--
+--
+--
+-- Resposta questão 4.4
+O fecho {CE} da relação 
+R(A,B,C,D,E,F) com dependências funcionais 
+F={E→DF,F→E,AC→D,CD→A} é 
+{C,E,D,F}.
+Isso significa que o conjunto {C,E} determina os atributos C,E,D,F com base nas dependências funcionais fornecidas em F.
